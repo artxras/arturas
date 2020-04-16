@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Exo 2';
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Exo 2';
+    font-size: 28px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    line-height: 2;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+  
+.hero-text h1 {
+      font-size: 100px;
+}
+  
+.hero-text p {
+      font-size: 30px;
+}
+
+.container-1 {
+    overflow: hidden;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: #C6E2E9;
+    background-color: #A7BED3;
+    color: black;
+    padding: 175px;
+    float: left;
+}
+
+button {
+    border: 5px solid black;
+    border-color: #C6E2E9; 
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #C6E2E9;
+    border-color: black;
+    color: black;
+}
+
+#button-2 {
+    border: 5px solid black;
+    border-color: #F1FFC4; 
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#button-2:hover {
+    background-color: #F1FFC4;
+    border-color: black;
+    color: black;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    float: right;
+}
+
+.container-2 {
+    overflow: hidden;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: #C6E2E9;
+    background-color: #F1FFC4;
+    color: black;
+    padding: 175px;
+    float: left;
+    width: 100%;
+}
+
+#agency-demo {
+    width: 500px;
+    height: 400px;
+    float: right;
+    border: 3px solid black;
+}
+
+.container-3 {
+    overflow: hidden;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: #C6E2E9;
+    background-color: #A7BED3;
+    color: black;
+    padding: 175px;
+    float: left;
+    width: 100%;
+}
+
+#fan-demo {
+    width: 500px;
+    height: 400px;
+    float: right;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: #F1FFC4;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: #C6E2E9;
+}
+
+#footer {
+    text-transform: uppercase;
+}
+
+#email {
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
